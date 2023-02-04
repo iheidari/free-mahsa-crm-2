@@ -24,6 +24,7 @@ const Cities: CollectionConfig = {
       relationTo: "provinces",
     },
   ],
+
   timestamps: false,
 };
 

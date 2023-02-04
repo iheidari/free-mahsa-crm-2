@@ -47,7 +47,7 @@ export interface Province {
   id: string;
   nameFa?: string;
   nameEn?: string;
-  Code?: string;
+  code?: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -72,4 +72,13 @@ export interface User {
   lockUntil?: string;
   createdAt: string;
   updatedAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "mappings".
+ */
+export interface Mapping {
+  id: string;
+  original?: string;
+  correct?: string;
 }

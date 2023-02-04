@@ -16,7 +16,7 @@
   },
   "include": [
     "src"
-  ],
+, "src/payload.config.ts", "src/seed", "src/payload.config.ts"  ],
   "exclude": [
     "node_modules",
     "dist",
