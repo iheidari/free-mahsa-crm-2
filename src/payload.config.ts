@@ -8,7 +8,7 @@ import Provinces from "./collections/Provinces";
 import Mappings from "./collections/Mappings";
 
 export default buildConfig({
-  serverURL: "http://localhost:3000",
+  serverURL: process.env.SERVER_URL,
   admin: {
     user: Users.slug,
   },
